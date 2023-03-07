@@ -1,0 +1,152 @@
+body{
+    background-color: #fae6e6;
+}
+#logo1{
+    display: block;
+    align-items: center;
+    max-height: 120px;
+    width: auto;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation_ls{
+    margin: 10px auto;
+    height: 100%;
+    background-color: #00804d;
+    text-align: center;
+    border-radius: 10px;
+}
+.navigation_ls ul{
+    display: inline-block;
+    vertical-align: top;
+}
+.navigation_ls li{
+    list-style-type: none;
+    display: inline;
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+.navigation_ls li a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navigation_ls li a:link{
+    color: gainsboro;
+}
+.navigation_ls li a:active{
+    background-color: purple;
+    border-radius: 10px;
+    color: black;
+}
+.navigation_ls li a:hover{
+    color: yellow;
+    text-shadow: #fad20d 2px 2px 8px;
+}
+.navigation_ls li a :visited{
+    color: rgb(152, 151, 151);
+}
+.main_poster{
+    background-image: url("https://images.unsplash.com/photo-1535689077097-a8726b5ff822?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    font-size: 30px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 3px 3px 9px #000000;
+    padding: 0.02px;
+    background-color: rgba(41, 40, 40, 0.5);
+    background-blend-mode: multiply;
+}
+main{
+    padding: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    display: block;
+    width: 350px;
+    height: 250px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.section2{
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+.section2>article{
+    background-color: #9FE2BF;
+    border-radius: 15px;
+    border-color: #26877f;
+    border-style: solid;
+    animation: bubbleanimation 5s linear 0s infinite;
+}
+hr {
+    width: 50%;
+    height: 2px;
+    margin-bottom: 2 auto;
+    margin-top: -2 auto;
+    background-color: #26877f;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+}
+article a:link{
+    color: gainsboro;
+    text-decoration: none;
+}
+article a:active{
+    background-color: purple;
+    border-radius: 10px;
+    color: black;
+}
+article a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    text-shadow: rgb(255, 179, 0) 2px 2px 8px;
+}
+article a :visited{
+    color: rgb(152, 151, 151);
+}
+p{
+    color: #004b2d;
+    font-size: 15px;
+    font-weight: 200;
+}
+@keyframes bubbleanimation{
+	0%{transform: rotate3d(0,0,0); background-color: rgb(130, 255, 130);}
+	20%{transform: rotate3d(0,0,0); background-color: rgb(218, 255, 145);}
+	40%{transform: rotate3d(50,0,0); background-color: rgb(130, 255, 130);}
+	60%{transform: rotate3d(50,0,-50); background-color: rgb(98, 255, 150);}
+	80%{transform: rotate3d(0,0,-50); background-color: rgb(85, 253, 108);}
+	100%{transform: rotate3d(0,0,0); background-color: rgb(98, 255, 150);}
+}
+.ls_cp{
+    display: block;
+    align-items: center;
+    max-height: 120px;
+    width: auto;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: #000000;
+    padding: 10px;
+}

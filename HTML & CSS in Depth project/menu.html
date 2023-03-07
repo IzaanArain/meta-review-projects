@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Lucky Shrub">
+    <meta name="author" content="Lucky Shrub Retail">
+    <meta name="description" content="About Lucky Shrub Retail Stores">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>LS Menu</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+    <header>
+        <div class="head_logo">
+            <img class="logo1" src="./LS Media/Asset 1@3x.png" style="display: block;
+            align-items: left;
+            max-height: 120px;
+            width: auto;
+            padding-bottom: 5px;
+            margin-left: auto;
+            margin-right: auto;">
+        </div>
+        <nav class="navigation_ls">
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="booking.html" target="_blank">Book</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="letters">
+                <p>M</p> <p>E</p> <p>N</p> <p>U</p>
+            </div>
+            <div class="letters">
+                <p>W</p><p>O</p><p>R</p><p>K</p><p>I</p><p>N</p><p>G</p>
+            </div>
+            <div class="letters">
+                <p><</p><p>-</p><p>-</p><p>I</p><p>N</p><p>-</p><p>-</p><p>></p>
+            </div>
+            <div class="letters">
+                <p>P</p><p>R</p><p>O</p><p>C</p><p>E</p><p>S</p><P>S</P>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <style>
+        * {
+	padding: 0;
+	margin: 0;
+	color: yellow;
+	animation: bubbleanimation1 5s linear 0s infinite;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+}
+  
+.container {
+	min-height: 100vh;
+	background-color:rgb(255, 255, 167);
+}
+  
+.letters {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	text-transform:uppercase;
+	font-size: 60px;
+	text-overflow: clip;
+	
+}
+.smile {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	text-transform:uppercase;
+	font-size: 100px;
+}
+.letters p{
+	text-align: center;
+	width: 70px;
+	margin-right: 10px;
+	border-radius: 50%;
+	border-color: black;
+	border-style: solid;
+	animation: bubbleanimation 0.5s linear 0s infinite;
+}
+.letters p:nth-child(even)
+{
+	animation: bubbleanimation2 0.5s linear 0s infinite;
+}
+.letters:hover p:nth-child(even)
+{
+transform: rotateZ(180deg);
+transition: 1.5s;   
+}
+.letters:hover p:nth-child(odd)
+{
+transform: rotateZ(-180deg);
+transition: 1.5s;
+}
+
+@keyframes bubbleanimation{
+	0%{transform: rotate3d(0,0,0); background-color: black; color: yellow; border-color: yellow;}
+	100%{transform: rotate3d(0,0,0); background-color: white; color: black; border-color: red;}
+}
+@keyframes bubbleanimation1{
+	0%{transform: rotate3d(0,0,0); background-color: purple; color: yellow;}
+	50%{transform: rotate3d(0,0,0); background-color: yellowgreen; color: black;}
+	100%{background-color: blueviolet;}
+}
+@keyframes bubbleanimation2{
+	0%{transform: rotate3d(0,0,0); background-color: white; color: black; border-color: red;}
+	100%{transform: rotate3d(0,0,0); background-color: black; color: yellow; border-color: yellow;}
+}
+@keyframes textanimation3{
+    0%{transform: rotateZ(90deg);}
+    25%{transform: rotateZ(180deg);}
+    50%{transform: rotateZ(270deg);}
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes textanimation4{
+    0%{transform: rotateZ(-90deg);}
+    25%{transform: rotateZ(-180deg);}
+    50%{transform: rotateZ(-270deg);}
+    100%{transform: rotateZ(-360deg);}
+}
+    </style>
+</body>
+<footer>
+    <div class="ls_cp" style="display: flex; align-items: center;">
+        <img src="./LS Media/Asset 3@3x.png" style="display: block;
+        align-items: left;
+        max-height: 120px;
+        width: auto;
+        padding-bottom: 5px;
+        margin-left: 525px;
+        margin-right: auto;">
+        <div class="Copyright">
+        <h4 style="margin-right: 525px; margin-left: auto; font-size: 15px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(176, 91, 255);">All Rights reserved to Lucky Scrub</h4>
+        <h4 style="margin-right: 525px; margin-left: auto; font-size: 15px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(176, 91, 255);">CopyRight©️ Lucky Scrub</h4>
+        <h4 style="margin-right: 525px; margin-left: auto; font-size: 15px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white; ">Website Crafted by Dharshan❤️</h4>
+        </div>
+    </div>
+</footer>
+</html>
