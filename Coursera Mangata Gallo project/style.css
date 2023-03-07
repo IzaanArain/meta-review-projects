@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Header section */
+header {
+    background-color: #000;
+    padding: 1.5rem;
+}
+
+header img {
+    width: 30rem;
+    display: block;
+    margin: auto;
+}
+
+/* Navbar section */
+nav {
+    background-color: #000;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+li a:hover {
+    font-size: 1.2rem;
+}
+
+/* Main section */
+main {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+#promo  {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url('offSale.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5rem;
+    transition: all 0.25s ease-in-out;
+}
+
+#promo:hover {
+    transform: scale(1.05);
+}
+
+#promo p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+section {
+    display: flex;
+}
+
+#cols {
+    margin-top: 1.5rem;
+}
+
+article.col-3 {
+    flex: 1;
+    padding: 2rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+article.col-3 img {
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+/* Footer section */
+footer {
+    background-color: #000;
+    padding: 1.5rem;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+footer img {
+    width: 5rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer p {
+    text-align: right;
+}

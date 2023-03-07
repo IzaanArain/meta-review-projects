@@ -1,0 +1,170 @@
+/*
+  fonts
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+/*
+  global styles
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: normal 16px sans-serif;
+}
+
+body {
+  background: #f4efe8;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  margin: 0 0 .75rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: inherit;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+  content
+*/
+
+.content {
+  display: block;
+  margin: 0 auto;
+  max-width: 1264px;
+  width: 100%;
+}
+
+/*
+  header
+*/
+
+header {
+  background: #3c2d3d;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+header .logo {
+  display: inline-block;
+  max-width: 600px;
+  width: 100%;
+}
+
+/*
+  navigation
+*/
+
+nav {
+  background: #c0a67b;
+  color: #3c2d3d;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 1.5rem;
+}
+
+/*
+  main
+*/
+
+main .feature {
+  align-items: center;
+  background-image: url("assets/feature.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: grid;
+  font-size: 1.25rem;
+  margin: 0 0 2rem;
+  min-height: 360px;
+  padding: 2rem;
+}
+
+main .card-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .card {
+  background-color: white;
+  border-radius: .5rem;
+  padding: 2rem;
+  min-height: 400px;
+}
+
+main .card a {
+  color: #815085;
+}
+
+main .card img {
+  display: inline-block;
+  height: auto;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+
+/*
+  footer
+*/
+
+footer {
+  padding: 4rem 2rem;
+}
+
+footer .footer-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 150px 1fr;
+}
+
+footer .logo {
+  height: auto;
+  width: 100%;
+}
+
+footer .copyright {
+  align-self: center;
+  font-size: .875rem;
+  text-align: right;
+}
